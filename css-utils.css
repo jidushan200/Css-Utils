@@ -501,6 +501,38 @@ size
     margin-bottom: 0.4rem !important;
 }
 
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.mb-25-i {
+    margin-bottom: 25px !important;
+}
+
+.mb-25rem {
+    margin-bottom: 0.5rem;
+}
+
+.mb-25rem-i {
+    margin-bottom: 0.5rem !important;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-30-i {
+    margin-bottom: 30px !important;
+}
+
+.mb-30rem {
+    margin-bottom: 0.6rem;
+}
+
+.mb-30rem-i {
+    margin-bottom: 0.6rem !important;
+}
+
 .m-0 {
     margin: 0;
 }
