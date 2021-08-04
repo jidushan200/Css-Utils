@@ -408,6 +408,22 @@ size
     margin-left: 0.4rem !important;
 }
 
+.ml-30 {
+    margin-left: 30px;
+}
+
+.ml-30-i {
+    margin-left: 30px !important;
+}
+
+.ml-30rem {
+    margin-left: 0.6rem;
+}
+
+.ml-30rem-i {
+    margin-left: 0.6rem !important;
+}
+
 .mb-0 {
     margin-bottom: 0;
 }
@@ -1644,6 +1660,15 @@ img
 
 .c-primary-i {
     color: #259 !important;
+}
+
+/*guo wang lv*/
+.c-dgreen {
+    color: #0C554A;
+}
+
+.c-dgreen-i {
+    color: #0C554A !important;
 }
 
 /*
