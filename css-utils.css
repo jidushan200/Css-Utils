@@ -62,6 +62,14 @@
     transform: translateY(-50%);
 }
 
+/* 高度不固定的绝对定位元素垂直居中  贴右侧边框 */
+.ly-abs-m-r {
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    transform: translateY(-50%);
+}
+
 .ta-center, .ta-c {
     text-align: center;
 }
@@ -373,6 +381,10 @@ size
     margin-left: 10px !important;
 }
 
+.ml-10per {
+    margin-left: 10%;
+}
+
 .ml-10rem {
     margin-left: 0.2rem;
 }
@@ -475,6 +487,10 @@ size
 
 .mb-15-i {
     margin-bottom: 15px !important;
+}
+
+.mb-15per {
+    margin-bottom: 15%;
 }
 
 .mb-15rem {
@@ -1339,13 +1355,54 @@ cursor
 /*
 * border
 */
-.b {
+.b-1 {
     border: 1px solid #ccc;
 }
 
-.b-i {
+.b-1-i {
     border: 1px solid #ccc !important;
 }
+
+.b-2 {
+    border: 2px solid #ccc;
+}
+
+.b-2-i {
+    border: 2px solid #ccc !important;
+}
+
+.b-3 {
+    border: 3px solid #ccc;
+}
+
+.b-3-i {
+    border: 3px solid #ccc !important;
+}
+
+.b-4 {
+    border: 4px solid #ccc;
+}
+
+.b-4-i {
+    border: 4px solid #ccc !important;
+}
+
+.b-5 {
+    border: 5px solid #ccc;
+}
+
+.b-5-i {
+    border: 5px solid #ccc !important;
+}
+
+.b-10 {
+    border: 10px solid #ccc;
+}
+
+.b-10-i {
+    border: 10px solid #ccc !important;
+}
+
 
 .bh, .bhorizontal {
     border-top: 1px solid #ccc;
