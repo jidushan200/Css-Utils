@@ -176,6 +176,7 @@ size
     width: 100% !important;
 }
 
+.mauto{
     margin: 0 auto;
     display: block;
 }
