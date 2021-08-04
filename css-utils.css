@@ -1434,6 +1434,14 @@ img
 /*
   font
 */
+.fz-40 {
+    font-size: 40px;
+}
+
+.fz-30 {
+    font-size: 30px;
+}
+
 .fz-xl {
     font-size: 20px;
 }
