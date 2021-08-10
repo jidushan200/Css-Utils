@@ -62,11 +62,25 @@
     transform: translateY(-50%);
 }
 
+/* 高度不固定的 位移 元素垂直居中 */
+.ly-trans-m {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 /* 高度不固定的绝对定位元素垂直居中  贴右侧边框 */
 .ly-abs-m-r {
     position: absolute;
     top: 50%;
     right: 0;
+    transform: translateY(-50%);
+}
+
+/* 高度不固定的绝对定位元素垂直居中  贴左侧边框 */
+.ly-abs-m-l {
+    position: absolute;
+    top: 50%;
+    left: 0;
     transform: translateY(-50%);
 }
 
@@ -541,12 +555,37 @@ size
     margin-bottom: 30px !important;
 }
 
+.mb-30per {
+    margin-bottom: 30%;
+}
+
 .mb-30rem {
     margin-bottom: 0.6rem;
 }
 
 .mb-30rem-i {
     margin-bottom: 0.6rem !important;
+}
+
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-50-i {
+    margin-bottom: 50px !important;
+}
+
+.mb-50per {
+    margin-bottom: 50%;
+}
+
+.mb-50rem {
+    margin-bottom: 1rem;
+}
+
+.mb-50rem-i {
+    margin-bottom: 1rem !important;
 }
 
 .m-0 {
@@ -1722,6 +1761,10 @@ img
 
 .c-333 {
     color: #333;
+}
+
+.c-ccc {
+    color: #ccc;
 }
 
 .c-666 {
