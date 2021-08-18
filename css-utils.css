@@ -62,11 +62,25 @@
     transform: translateY(-50%);
 }
 
+/* 高度不固定的 位移 元素垂直居中 */
+.ly-trans-m {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 /* 高度不固定的绝对定位元素垂直居中  贴右侧边框 */
 .ly-abs-m-r {
     position: absolute;
     top: 50%;
     right: 0;
+    transform: translateY(-50%);
+}
+
+/* 高度不固定的绝对定位元素垂直居中  贴左侧边框 */
+.ly-abs-m-l {
+    position: absolute;
+    top: 50%;
+    left: 0;
     transform: translateY(-50%);
 }
 
@@ -184,7 +198,7 @@ size
     width: 100% !important;
 }
 
-.mauto{
+.mauto {
     margin: 0 auto;
     display: block;
 }
@@ -195,6 +209,10 @@ size
 
 .mt-0-i {
     margin-top: 0 !important;
+}
+
+.mt-2per{
+    margin-top: 2%;
 }
 
 .mt-5 {
@@ -269,6 +287,10 @@ size
     margin-right: 0 !important;
 }
 
+.mr-4per {
+    margin-right: 4%;
+}
+
 .mr-5 {
     margin-right: 5px;
 }
@@ -277,12 +299,20 @@ size
     margin-right: 5px !important;
 }
 
+.mr-5per {
+    margin-right: 5%;
+}
+
 .mr-5rem {
     margin-right: 0.1rem;
 }
 
 .mr-5rem-i {
     margin-right: 0.1rem !important;
+}
+
+.mr-8per{
+    margin-right: 8%;
 }
 
 .mr-10 {
@@ -333,12 +363,32 @@ size
     margin-right: 0.4rem !important;
 }
 
+.mr-25 {
+    margin-right: 25px;
+}
+
+.mr-25-i {
+    margin-right: 25px !important;
+}
+
+.mr-25rem {
+    margin-right: 0.5rem;
+}
+
+.mr-25rem-i {
+    margin-right: 0.5rem !important;
+}
+
 .mr-30 {
     margin-right: 30px;
 }
 
 .mr-30-i {
     margin-right: 30px !important;
+}
+
+.mr-30per {
+    margin-right: 30%;
 }
 
 .mr-30rem {
@@ -349,12 +399,40 @@ size
     margin-right: 0.6rem !important;
 }
 
+.mr-65 {
+    margin-right: 65px;
+}
+
+.mr-65-i {
+    margin-right: 65px !important;
+}
+
+.mr-65per {
+    margin-right: 65%;
+}
+
+.mr-65rem {
+    margin-right: 1.3rem;
+}
+
+.mr-65rem-i {
+    margin-right: 1.3rem !important;
+}
+
 .ml-0 {
     margin-left: 0;
 }
 
 .ml-0-i {
     margin-left: 0 !important;
+}
+
+.ml-3per{
+    margin-left: 3%;
+}
+
+.ml-3per-i{
+    margin-left: 3% !important;
 }
 
 .ml-5 {
@@ -364,6 +442,11 @@ size
 .ml-5-i {
     margin-left: 5px !important;
 }
+
+.ml-5per {
+    margin-left: 5%;
+}
+
 
 .ml-5rem {
     margin-left: 0.1rem;
@@ -541,12 +624,36 @@ size
     margin-bottom: 30px !important;
 }
 
+.mb-30per {
+    margin-bottom: 30%;
+}
+
 .mb-30rem {
     margin-bottom: 0.6rem;
 }
 
 .mb-30rem-i {
     margin-bottom: 0.6rem !important;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-50-i {
+    margin-bottom: 50px !important;
+}
+
+.mb-50per {
+    margin-bottom: 50%;
+}
+
+.mb-50rem {
+    margin-bottom: 1rem;
+}
+
+.mb-50rem-i {
+    margin-bottom: 1rem !important;
 }
 
 .m-0 {
@@ -1403,7 +1510,6 @@ cursor
     border: 10px solid #ccc !important;
 }
 
-
 .bh, .bhorizontal {
     border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
@@ -1677,29 +1783,29 @@ img
 * "STXihei" 是微软雅黑在Mac平台上的对应字体
 */
 .ff-yahei {
-    font-family: tahoma,arial,"STXihei","Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
+    font-family: tahoma, arial, "STXihei", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
 }
 
 .ff-yahei-i {
-    font-family: tahoma,arial,"STXihei","Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun !important;
+    font-family: tahoma, arial, "STXihei", "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun !important;
 }
 
 /* 普通黑体 */
 .ff-hei {
-    font-family: tahoma,arial,"STXihei",SimHei,"Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
+    font-family: tahoma, arial, "STXihei", SimHei, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun;
 }
 
 .ff-hei-i {
-    font-family: tahoma,arial,"STXihei",SimHei,"Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun !important;
+    font-family: tahoma, arial, "STXihei", SimHei, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", "宋体", SimSun !important;
 }
 
 /* 宋体 */
 .ff-song {
-    font-family: tahoma,arial,"宋体", SimSun;
+    font-family: tahoma, arial, "宋体", SimSun;
 }
 
 .ff-song-i {
-    font-family: tahoma,arial,"宋体", SimSun !important;
+    font-family: tahoma, arial, "宋体", SimSun !important;
 }
 
 .c-i {
@@ -1722,6 +1828,10 @@ img
 
 .c-333 {
     color: #333;
+}
+
+.c-ccc {
+    color: #ccc;
 }
 
 .c-666 {
@@ -1772,7 +1882,7 @@ img
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    line-height: 1.2;
+    /*line-height: 1.2;*/
     /*修复部分手机出现的头部文字头部会隐藏掉一点点的问题。*/
 }
 
