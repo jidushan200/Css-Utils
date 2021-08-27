@@ -84,6 +84,14 @@
     transform: translateY(-50%);
 }
 
+/* 高度不固定的绝对定位元素水平居中  贴 底边框 */
+.ly-abs-m-b {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-50%);
+}
+
 .ta-center, .ta-c {
     text-align: center;
 }
@@ -540,6 +548,10 @@ size
     margin-bottom: 5px !important;
 }
 
+.mb-5per {
+    margin-bottom: 5%;
+}
+
 .mb-5rem {
     margin-bottom: 0.1rem;
 }
@@ -554,6 +566,10 @@ size
 
 .mb-10-i {
     margin-bottom: 10px !important;
+}
+
+.mb-10per {
+    margin-bottom: 0.2rem;
 }
 
 .mb-10rem {
@@ -1607,6 +1623,22 @@ cursor
 
 .bgc-grey-i {
     background-color: #f5f5f5 !important;
+}
+
+.bgc-ccc {
+    background-color: #ccc;
+}
+
+.bgc-ccc-i {
+    background-color: #ccc !important;
+}
+
+.bgc-fff {
+    background-color: #fff;
+}
+
+.bgc-fff-i {
+    background-color: #fff !important;
 }
 
 .bgz-cover {
