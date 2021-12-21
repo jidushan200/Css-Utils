@@ -205,14 +205,14 @@ size
 .w-100per-i {
     width: 100% !important;
 }
-
 .w-300{
     width: 300px !important;
 }
 
+
 .mauto {
-    margin: 0 auto;
-    display: block;
+	margin: 0 auto;
+	display: block;
 }
 
 .mt-0 {
@@ -552,6 +552,10 @@ size
     margin-bottom: 5px !important;
 }
 
+.mb-5per {
+    margin-bottom: 5%;
+}
+
 .mb-5rem {
     margin-bottom: 0.1rem;
 }
@@ -566,6 +570,10 @@ size
 
 .mb-10-i {
     margin-bottom: 10px !important;
+}
+
+.mb-10per {
+    margin-bottom: 0.2rem;
 }
 
 .mb-10rem {
@@ -1636,7 +1644,6 @@ cursor
 .bgc-fff-i {
     background-color: #fff !important;
 }
-
 .bgc-hit {
     background-color: #f08116;
 }
@@ -1655,8 +1662,8 @@ cursor
 
 
 .bgz-cover {
-    -webkit-background-size: cover;
-    background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
 }
 
 .bgz-cover-i {
