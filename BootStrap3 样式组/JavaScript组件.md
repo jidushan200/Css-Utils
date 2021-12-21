@@ -1,5 +1,3 @@
-# BootStrap3的组件——IE专供
-
 # JavaScript 插件
 
 jQuery 插件为 Bootstrap 的组件赋予了“生命”。可以简单地一次性引入所有插件，或者逐个引入到你的页面中。
