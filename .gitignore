@@ -1,0 +1,7 @@
+*.gz
+
+logs
+build
+
+node_modules
+.idea

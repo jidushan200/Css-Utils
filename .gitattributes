@@ -1,7 +1,0 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-
-*.gz
-
-.idea
-node_modules
