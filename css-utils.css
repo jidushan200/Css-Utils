@@ -1992,3 +1992,12 @@ https://css-tricks.com/snippets/css/momentum-scrolling-on-ios-overflow-elements/
 }
 
 /*# sourceMappingURL=index.css.map */
+
+/*浮动*/
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
