@@ -2001,3 +2001,16 @@ https://css-tricks.com/snippets/css/momentum-scrolling-on-ios-overflow-elements/
 .fr{
     float: right;
 }
+
+/*清除浮动*/
+.clearfix:after{
+    content:"";				/*设置内容为空*/
+    height:0;				/*高度为0*/
+    line-height:0;			/*行高为0*/
+    display:block;			/*将文本转为块级元素*/
+    visibility:hidden;		/*将元素隐藏*/
+    clear:both;				/*清除浮动*/
+}
+.clearfix{
+    zoom:1;					/*为了兼容IE*/
+}
