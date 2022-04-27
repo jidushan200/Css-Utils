@@ -243,6 +243,10 @@ size
     margin-top: 0.1rem !important;
 }
 
+.mt-5per {
+    margin-top: 5%;
+}
+
 .mt-10 {
     margin-top: 10px;
 }
@@ -257,6 +261,10 @@ size
 
 .mt-10rem-i {
     margin-top: 0.2rem !important;
+}
+
+.mt-10per {
+    margin-top: 10%;
 }
 
 .mt-15 {
@@ -275,6 +283,10 @@ size
     margin-top: 0.3rem !important;
 }
 
+.mt-15per {
+    margin-top: 15%;
+}
+
 .mt-20 {
     margin-top: 20px;
 }
@@ -289,6 +301,10 @@ size
 
 .mt-20rem-i {
     margin-top: 0.4rem !important;
+}
+
+.mt-20per {
+    margin-top: 20%;
 }
 
 .mr-0 {
