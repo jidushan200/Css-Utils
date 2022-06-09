@@ -2033,7 +2033,7 @@ https://css-tricks.com/snippets/css/momentum-scrolling-on-ios-overflow-elements/
 
 /*边框的边角*/
 /*左上*/
-.lt:after{
+.lt:first-line{
     content:"";				/*设置内容为空*/
     display:block;			/*将文本转为块级元素*/
     left: -3px;
@@ -2042,7 +2042,7 @@ https://css-tricks.com/snippets/css/momentum-scrolling-on-ios-overflow-elements/
     border-left: 3px solid #1FD0DD;
 }
 /*右上*/
-.rt:after{
+.rt:first-line{
     content:"";				/*设置内容为空*/
     display:block;			/*将文本转为块级元素*/
     right: -3px;
@@ -2051,7 +2051,7 @@ https://css-tricks.com/snippets/css/momentum-scrolling-on-ios-overflow-elements/
     border-right: 3px solid #1FD0DD;
 }
 /*右下*/
-.rb:after{
+.rb:first-line{
     content:"";				/*设置内容为空*/
     display:block;			/*将文本转为块级元素*/
     bottom: -3px;
@@ -2060,7 +2060,7 @@ https://css-tricks.com/snippets/css/momentum-scrolling-on-ios-overflow-elements/
     border-right: 3px solid #1FD0DD;
 }
 /*左下*/
-.lb:after{
+.lb:first-line{
     content:"";				/*设置内容为空*/
     display:block;			/*将文本转为块级元素*/
     bottom: -3px;
