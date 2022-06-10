@@ -31,7 +31,7 @@
 }
 
 .ly-top, .ly-t {
-    align-items: top;
+    align-items: flex-start;
 }
 
 .ly-middle, .ly-m {
@@ -225,6 +225,10 @@ size
 
 .mt-2per{
     margin-top: 2%;
+}
+
+.mt-3per{
+    margin-top: 3%;
 }
 
 .mt-5 {
@@ -453,6 +457,14 @@ size
 
 .ml-0-i {
     margin-left: 0 !important;
+}
+
+.ml-1per{
+    margin-left: 1%;
+}
+
+.ml-2per{
+    margin-left: 2%;
 }
 
 .ml-3per{
@@ -1676,6 +1688,14 @@ cursor
     background-color: #0C554A !important;
 }
 
+.bgc-r-i{
+    background-color: red;
+}
+
+.bgc-r-i{
+    background-color: red;
+}
+
 
 .bgz-cover {
 -webkit-background-size: cover;
@@ -2030,3 +2050,11 @@ https://css-tricks.com/snippets/css/momentum-scrolling-on-ios-overflow-elements/
 .clearfix{
     zoom:1;					/*为了兼容IE*/
 }
+
+/*边框边角*/
+.border_corner {
+    background: linear-gradient(to left, var(--borderColor), var(--borderColor)) left top no-repeat, linear-gradient(to bottom, var(--borderColor), var(--borderColor)) left top no-repeat, linear-gradient(to left, var(--borderColor), var(--borderColor)) right top no-repeat, linear-gradient(to bottom, var(--borderColor), var(--borderColor)) right top no-repeat, linear-gradient(to left, var(--borderColor), var(--borderColor)) left bottom no-repeat, linear-gradient(to bottom, var(--borderColor), var(--borderColor)) left bottom no-repeat, linear-gradient(to left, var(--borderColor), var(--borderColor)) right bottom no-repeat, linear-gradient(to left, var(--borderColor), var(--borderColor)) right bottom no-repeat;
+    background-size: 2px var(--borderWidth), var(--borderWidth) 2px, 2px var(--borderWidth), var(--borderWidth) 2px;
+}
+
+
