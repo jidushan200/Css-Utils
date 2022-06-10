@@ -39,3 +39,6 @@ a {
     color: #666;
     text-decoration: none
 }
+span{
+    vertical-align: middle;
+}
