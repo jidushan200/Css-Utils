@@ -1846,6 +1846,14 @@ img
     font-weight: lighter !important;
 }
 
+.fy-i,.fy-ita{
+    font-style: italic;
+}
+.fy-i-i,.fy-ita-i{
+    font-style: italic!important;
+}
+
+
 .lh-lg {
     line-height: 1.5;
 }
