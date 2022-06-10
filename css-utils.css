@@ -223,6 +223,10 @@ size
     margin-top: 0 !important;
 }
 
+.mt-1per{
+    margin-top: 1%;
+}
+
 .mt-2per{
     margin-top: 2%;
 }
