@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS3实现无限循环的无缝滚动</title>
+    <style type="text/css">
+
+
+        .mechanism {
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .re_roll {
+            -webkit-animation: 5s rowup linear infinite normal; /*播放时长 动画名称 播放次数 播放延迟*/
+            animation: 5s rowup linear infinite normal;
+            position: relative;
+        }
+
+        /*鼠标经过停止滚动*/
+        .mechanism:hover .re_roll {
+            animation-play-state: paused;
+        }
+
+        @keyframes rowup {
+            0% {
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+            100% {
+                /*(此处列表高度列如：-200px)*/
+                -webkit-transform: translate3d(0, -200px, 0);
+                transform: translate3d(0, -200px, 0);
+
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="mechanism">
+    <div class="re_roll">
+        　　
+        <ul>
+            　　　　
+            <li>告警告警</li>
+
+            　　　　
+            <li>告警告警</li>
+
+            　　　　
+            <li>告警告警</li>
+
+            　　　　
+            <li>告警告警</li>
+
+            　　　　
+            <li>告警告警</li>
+
+            　　　　
+            <li>告警告警</li>
+
+            　　　　
+            <li>告警告警</li>
+
+            　　　　
+            <li>告警告警</li>
+
+            　　　　
+            <li>告警告警</li>
+
+            　　　　
+            <li>告警告警</li>
+
+            　　
+        </ul>
+    </div>
+</div>
+</body>
+</html>
