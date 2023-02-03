@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>根据屏幕伸缩</title>
+    <style>
+        #p {
+            border: 0;
+            /*临时布局用*/
+            /*border: 1px solid red;*/
+        }
+
+        #container {
+            margin: 0 auto;
+            width: 70%;
+            height: 473px;
+            overflow: hidden;
+            box-sizing: border-box;
+            /*临时布局用*/
+            /*border: 1px solid red;*/
+        }
+
+        .box {
+            /*TODO：宽高来自一汽大众天津分公司生产线 西门子显示屏 分辨率*/
+            width: 876px;
+            height: 473px;
+
+            box-sizing: border-box;
+            /*临时布局用*/
+            border: 1px solid red;
+        }
+
+        .box img{
+            display: block;
+            width: 98%;
+            height: 92.5%;
+        }
+    </style>
+</head>
+<body>
+<div id="p">
+    <div id="container">
+        <div class="box">
+            <img src="AU.png" alt="">
+            <!--<img src="FAW.png" alt="">-->
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
+<script src="../jquery-1.10.1.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        window.onload = onwindowresize;
+        window.onresize = onwindowresize;
+    });
+
+    //保存DIV大小
+    save_h1 = 0;
+    save_w1 = 0;
+
+    //窗体大小变化时调整缩放比例
+    function divresize() {
+        //return;
+        h = $(".box").height().toFixed(4);
+        w = $(".box").width().toFixed(4);
+        h1 = $("#container").height().toFixed(4);
+        w1 = $("#container").width().toFixed(4);
+        if (w1 != save_w1 || h1 != save_h1) {
+            //div大小有变动，保持当前大小并变换显示比例
+            save_w1 = w1;
+            save_h1 = h1;
+            var ratioy = h1 / h;
+            var ratiox = w1 / w;
+            $('.box').css({
+                'transform': 'scale(' + ratiox + ', ' + ratioy + ')',
+                'transform-origin': '0 0',
+            });
+        }
+    };
+    var timer = 0;   //计时器
+    function onwindowresize() {
+        clearTimeout(timer);
+        timer = setTimeout(divresize, 100);
+    };
+
+
+</script>
