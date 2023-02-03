@@ -12,10 +12,8 @@
 
         #container {
             margin: 0 auto;
-            width: 70%;
-            height: 473px;
-            overflow: hidden;
-            box-sizing: border-box;
+            width: 100%;
+            height: 100%;
             /*临时布局用*/
             /*border: 1px solid red;*/
         }
@@ -24,13 +22,12 @@
             /*TODO：宽高来自一汽大众天津分公司生产线 西门子显示屏 分辨率*/
             width: 876px;
             height: 473px;
-
-            box-sizing: border-box;
+            position: relative;
             /*临时布局用*/
-            border: 1px solid red;
+
         }
 
-        .box img{
+        .box img {
             display: block;
             width: 98%;
             height: 92.5%;
@@ -38,12 +35,10 @@
     </style>
 </head>
 <body>
-<div id="p">
-    <div id="container">
-        <div class="box">
-            <img src="AU.png" alt="">
-            <!--<img src="FAW.png" alt="">-->
-        </div>
+<div id="container">
+    <div class="box">
+        <!--<img src="AU.png" alt="">-->
+        <!--<img src="FAW.png" alt="">-->
     </div>
 </div>
 </div>
